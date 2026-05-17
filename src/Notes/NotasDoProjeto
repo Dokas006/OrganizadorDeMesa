@@ -20,7 +20,6 @@ Você deverá criar um programa que:
    * mostrar todos os pedidos cadastrados
    * calcular o valor total vendido
    * mostrar o pedido mais caro
-   * mostrar quantos pedidos possuem valor acima de R$50
    * permitir buscar um pedido pelo número
 
 ---
@@ -59,8 +58,6 @@ Valor total vendido: R$244.40
 
 Pedido mais caro:
 103 - Ana - R$120.00
-
-Pedidos acima de R$50: 2
 
 Buscar pedido 102:
 Pedido encontrado -> João - R$78.50

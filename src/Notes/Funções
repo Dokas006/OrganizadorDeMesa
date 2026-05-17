@@ -1,5 +1,12 @@
-Função que soma o valor de todas as mesas - Feito
-Função que mostra todas as mesas - Feito
-Função que mostra o pedido mais caro - Fazer
-Função que mostra os produtos acima de 50,00 - Fazer
 (-----------------------------FUNÇÕES-----------------------------)
+Função que soma o valor de todas as mesas  =   public double calcularValorTotal(Mesa[] pedido)
+
+Função que mostra todas as mesas  =  public void MostrarTodasAsMesas(Mesa[] mesas)
+
+Função que mostra o pedido mais caro  =  public void MostrarPedidoMaisCaro(Mesa[] pedidos )
+
+Função que busca um pedido com base no numero da mesa e retorna o nome do cliente e valor - Fazer
+
+
+
+
