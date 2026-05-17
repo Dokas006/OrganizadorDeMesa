@@ -1,0 +1,128 @@
+Imagine que você está participando de um processo seletivo para estágio/júnior em desenvolvimento.
+O entrevistador te passa a seguinte tarefa:
+
+---
+
+# Desafio Técnico — Sistema de Organização de Pedidos
+
+Uma lanchonete precisa organizar automaticamente os pedidos recebidos durante o dia.
+
+Você deverá criar um programa que:
+
+1. Receba uma lista de pedidos.
+2. Cada pedido possui:
+
+   * número do pedido
+   * nome do cliente
+   * valor do pedido
+3. O programa deve:
+
+   * mostrar todos os pedidos cadastrados
+   * calcular o valor total vendido
+   * mostrar o pedido mais caro
+   * mostrar quantos pedidos possuem valor acima de R$50
+   * permitir buscar um pedido pelo número
+
+---
+
+## Exemplo de Entrada
+
+```text
+Pedido 1:
+Número: 101
+Cliente: Maria
+Valor: 45.90
+
+Pedido 2:
+Número: 102
+Cliente: João
+Valor: 78.50
+
+Pedido 3:
+Número: 103
+Cliente: Ana
+Valor: 120.00
+```
+
+---
+
+## Exemplo de Saída Esperada
+
+```text
+=== LISTA DE PEDIDOS ===
+
+101 - Maria - R$45.90
+102 - João - R$78.50
+103 - Ana - R$120.00
+
+Valor total vendido: R$244.40
+
+Pedido mais caro:
+103 - Ana - R$120.00
+
+Pedidos acima de R$50: 2
+
+Buscar pedido 102:
+Pedido encontrado -> João - R$78.50
+```
+
+---
+
+# Requisitos Técnicos
+
+O entrevistador quer avaliar se você sabe:
+
+* usar arrays ou listas
+* usar estruturas de repetição
+* criar condições (`if`)
+* trabalhar com métodos/funções
+* organizar código
+* lógica de busca
+* lógica de acumulação
+
+---
+
+# Diferencial (Opcional)
+
+Se quiser impressionar o entrevistador:
+
+✅ Criar uma classe `Pedido`
+✅ Usar `ArrayList`
+✅ Criar menu interativo
+✅ Validar entradas inválidas
+✅ Ordenar pedidos por valor
+
+---
+
+# O que o entrevistador avaliaria
+
+| Critério                  | Peso  |
+| ------------------------- | ----- |
+| Lógica                    | Alto  |
+| Organização do código     | Alto  |
+| Clareza                   | Médio |
+| Tratamento de erros       | Médio |
+| Uso correto de estruturas | Alto  |
+
+---
+
+# Perguntas que podem surgir na entrevista
+
+Depois do código, o entrevistador poderia perguntar:
+
+* Qual a complexidade da busca?
+* Por que escolheu ArrayList?
+* Como melhoraria o sistema?
+* Como salvaria os dados em arquivo?
+* Como faria isso em banco de dados?
+
+---
+
+Se quiser, eu também posso:
+
+* atuar como entrevistador de verdade e ir te guiando
+* corrigir sua solução
+* fazer versão fácil, média ou difícil
+* fazer desafio estilo empresa grande
+* fazer desafio focado em Java, Python ou JavaScript
+* fazer perguntas técnicas após sua resposta
