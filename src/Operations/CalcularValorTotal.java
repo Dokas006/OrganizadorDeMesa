@@ -1,4 +1,4 @@
-package Serviços;
+package Operations;
 import Dominio.Mesa;
 
 public class CalcularValorTotal {

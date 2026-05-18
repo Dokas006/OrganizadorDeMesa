@@ -1,10 +1,10 @@
 package Test;
 
 import Dominio.Mesa;
-import Serviços.CalcularValorTotal;
-import Serviços.MostrarPedidoMaisCaro;
-import Serviços.MostrarTodasAsMesas;
-import Serviços.MostrarPedidoMaisCaro;
+import Operations.CalcularValorTotal;
+import Operations.MostrarPedidoMaisCaro;
+import Operations.MostrarTodasAsMesas;
+import Operations.MostrarPedidoMaisCaro;
 
 public class OrganizadorDeMesaTest {
     static void main() {
@@ -15,6 +15,9 @@ public class OrganizadorDeMesaTest {
         CalcularValorTotal mostrarValorTotal = new CalcularValorTotal();
         MostrarTodasAsMesas mostrarTodasAsMesas = new MostrarTodasAsMesas();
         MostrarPedidoMaisCaro mostrarPedidoMaisCaro = new MostrarPedidoMaisCaro();
+
+        //funções
+
         mostrarTodasAsMesas.MostrarTodasAsMesas(pedidos);
         System.out.println("--------------------------------------");
         mostrarValorTotal.MostrarValorTotal(pedidos);
